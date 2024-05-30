@@ -1,0 +1,183 @@
+{
+  "logindata": [
+    {
+      "email": "sk@gmail.com",
+      "name": "siva",
+      "password": "1234",
+      "id": "abc543"
+    }
+  ],
+  "customers": [
+    {
+      "id": "9",
+      "customer": 11908,
+      "customer_profile": {
+        "id": 11908,
+        "name": "Ram",
+        "color": [
+          182,
+          73,
+          99
+        ],
+        "email": "jesus_christ@church.com",
+        "pincode": "Mumbai",
+        "location_name": "Mumbai, Maharashtra, India",
+        "type": "C",
+        "profile_pic": null,
+        "gst": ""
+      }
+    },
+    {
+      "id": "10",
+      "customer": 11909,
+      "customer_profile": {
+        "id": 11909,
+        "name": "Raj",
+        "color": [
+          40,
+          73,
+          200
+        ],
+        "email": "pro@tn.com",
+        "pincode": "625011",
+        "location_name": "Madurai,Tamilnadu,India",
+        "type": "C",
+        "profile_pic": null,
+        "gst": ""
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "210",
+      "display_id": 8,
+      "owner": 1078,
+      "name": "AWESOME PRODUCT",
+      "category": "The god of War",
+      "characteristics": "New Product Characteristics",
+      "features": "",
+      "brand": "New Product Brand",
+      "sku": [
+        {
+          "id": 250,
+          "selling_price": 54,
+          "max_retail_price": 44,
+          "amount": 33,
+          "unit": "kg",
+          "quantity_in_inventory": 5,
+          "product": 210
+        }
+      ],
+      "updated_on": "2024-05-24T12:46:41.995873Z",
+      "adding_date": "2024-05-24T12:46:41.995828Z"
+    },
+    {
+      "id": "209",
+      "display_id": 8,
+      "owner": 1079,
+      "name": "New Product",
+      "category": "The god of War",
+      "characteristics": "New Product Characteristics",
+      "features": "",
+      "brand": "New Product Brand",
+      "sku": [
+        {
+          "id": 248,
+          "selling_price": 54,
+          "max_retail_price": 44,
+          "amount": 33,
+          "unit": "kg",
+          "quantity_in_inventory": 3,
+          "product": 209
+        },
+        {
+          "id": 247,
+          "selling_price": 32,
+          "max_retail_price": 32,
+          "amount": 33,
+          "unit": "kg",
+          "quantity_in_inventory": 2,
+          "product": 209
+        },
+        {
+          "id": 246,
+          "selling_price": 23,
+          "max_retail_price": 21,
+          "amount": 22,
+          "unit": "kg",
+          "quantity_in_inventory": 2,
+          "product": 209
+        }
+      ],
+      "updated_on": "2024-05-24T12:46:41.995873Z",
+      "adding_date": "2024-05-24T12:46:41.995828Z"
+    }
+  ],
+  "order": [
+    {
+      "customer_id": 11908,
+      "items": [
+        {
+          "sku_id": 248,
+          "price": "12",
+          "quantity": "15"
+        },
+        {
+          "sku_id": 246,
+          "price": "25",
+          "quantity": "10"
+        }
+      ],
+      "paid": false,
+      "invoice_no": "Invoice - 1212121",
+      "invoice_date": "7/5/2024",
+      "last_modified": "2024-05-30T05:38:11.104Z",
+      "id": "95a5"
+    },
+    {
+      "customer_id": 11908,
+      "items": [
+        {
+          "sku_id": 248,
+          "price": 12,
+          "quantity": 10
+        }
+      ],
+      "paid": true,
+      "invoice_no": "Invoice - 1212651",
+      "invoice_date": "7/5/2024",
+      "last_modified": "2024-05-29T11:51:20.901Z",
+      "id": "d493"
+    },
+    {
+      "customer_id": 11909,
+      "items": [
+        {
+          "sku_id": 247,
+          "price": "20",
+          "quantity": "10"
+        }
+      ],
+      "paid": true,
+      "invoice_no": "Invoice - 1212987",
+      "invoice_date": "7/5/2024",
+      "last_modified": "2024-05-30T05:12:38.836Z",
+      "id": "8300"
+    },
+    {
+      "customer_id": "11908",
+      "items": [
+        {
+          "sku_id": 250,
+          "price": "10",
+          "quantity": "1"
+        }
+      ],
+      "paid": false,
+      "invoice_no": "Invoice-30/05/2024",
+      "invoice_date": "30/05/2024",
+      "last_modified": "2024-05-30T13:43:17.794Z",
+      "id": "1ce6"
+    }
+  ]
+}
